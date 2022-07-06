@@ -1,0 +1,39 @@
+*{
+    background-color:rgba(159, 223, 206, 0.942);
+    color:rgb(39, 57, 55);
+    font-family:big caslon;
+    font-size: 20px;
+    text-align: center;
+}
+
+h1{
+    background-image: linear-gradient(135deg, black 50%, antiquewhite 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family:big caslon;
+    font-size: 55px;
+    text-align: center;
+}
+
+.p3{
+border: 2pt slategrey;
+}
+
+.About{
+    color:rgb(39, 57, 55);
+}
+body{
+    text-align: center;
+}
+
+.tablinks{
+    color: black;
+    background-color: pink;
+ }
+
+ .logout {
+    position:fixed;
+    right:10px;
+    top:5px;
+ }

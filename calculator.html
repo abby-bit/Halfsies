@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="halfsies.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <form class="logout" id="logout" name="form1" method="get" action="./Mainscreen.html">
+        <label>
+        <input name="submit2" type="submit" id="submit2" value="log out">
+        </label>
+    </form>
+</head>
+<body>
+    <h1 class="h1">Utility Calculator</h1>
+    <p class="About">Here you can split your bills and clear out your balances!</p>
+        <nav class="nav">
+            <button type = "button" onclick = window.location.href="halfsies.html" class = "tablinks">Home</button>
+            <br> <br>
+            <button type = "button" onclick = window.location.href="calendar.html" class = "tablinks">Calendar</button>
+            <button type = "button" onclick = window.location.href="chores.html" class="tablinks">Chores</button>
+        </nav>
+        <form action="">
+            <br> 
+            <label for="amount paid">How much did you pay?</label>  
+                <input type="number"> 
+            <br><br>
+            <label for="paymentcategory">What was the payment for?</label>
+                    <input type="text" list="paymentcategories" id="paymentcategory" name="paymentcategory" placeholder="Type or select an option from the list">
+                        <datalist id="paymentcategories">
+                            <option value="Utilities"></option>
+                            <option value="Groceries"></option>
+                            <option value="Rent"></option>
+                            <option value="Internet"></option>
+                            <option value="Food"></option>
+                            <option value=""></option>  
+                        </datalist>
+            <br>
+            <input  style="color:black; background-color: pink;" type="submit">
+        </form>
+
+</body>
+</html>
