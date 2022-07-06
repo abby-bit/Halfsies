@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
 
 *{
     background-color:rgba(159, 223, 206, 0.942);
@@ -13,7 +13,7 @@ h1{
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Lobster Two', cursive;
     /* font-family:big caslon; */
     font-size: 55px;
     text-align: center;
