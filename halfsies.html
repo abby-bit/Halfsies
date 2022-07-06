@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="halfsies.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halfsies</title>
+    <form class="logout" id="logout" name="form1" method="get" action="./Mainscreen.html">
+        <label>
+        <input name="submit2" type="submit" id="submit2" value="log out">
+        </label>
+    </form>
+</head>
+<body>
+    <h1 class="h1">Welcome to Halfsies</h1>
+    <p class="About">Halfsies is a place where you can allocate chores and split your utility cost. </p>
+        <nav class="nav">
+            <button type = "button" onclick = window.location.href="halfsies.html" class = "tablinks">Home</button>
+            <br> <br>
+            <button type = "button" onclick = window.location.href="calendar.html" class = "tablinks">Calendar</button>
+            <button type = "button" onclick = window.location.href="chores.html" class="tablinks">Chores</button>
+            <button type = "button" onclick = window.location.href="calculator.html" class="tablinks">Calculator</button>
+        </nav>
+    <p>How many roommates do you have?</p>
+        <nav class="nav">
+            <input type="number" name="amount" value="1" min="1" max="5" id="amount">
+            <br> <br>
+            <input type="submit" value="Submit">
+        </nav>
+    <p>Enter their names:</p>
+    <form action="">
+            <input size = "40" style= "color: pink; background-color: black;border: 2px solid pink;" type="text" placeholder = "Enter roommate here">   
+            <br>
+            <input size = "40" style= "color: pink; background-color: black;border: 2px solid pink;" type="text" placeholder = "Enter roommate here"> 
+            <br>
+            <input size = "40" style= "color: pink; background-color: black;border: 2px solid pink;" type="text" placeholder = "Enter roommate here"> 
+            <br>
+            <input size = "40" style= "color: pink; background-color: black;border: 2px solid pink;" type="text" placeholder = "Enter roommate here"> 
+            <br><br>
+            <input  style="color:black; background-color: pink;" type="submit">
+         </form>
+</body>
+</html>
